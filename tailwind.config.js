@@ -3,9 +3,6 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
-    fontFamily: {
-      'main': ["Montseratte"]
-    },
     extend: {
       colors: {
         main: "#FF4B33",
@@ -14,7 +11,7 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["Montseratte", "sans-serif"],
+        montseratt: ["Montserrat", "sans-serif"],
       },
     },
     screens: {
