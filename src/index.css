@@ -4,9 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+.img-background{
+  width: auto;
+  height: 100vh;
 }
 
 .font-mont {
@@ -15,4 +24,12 @@
 
 .font-normal {
   font-weight: 400;
+}
+
+.gray__gradient {
+  background: linear-gradient(
+    180deg,
+    #D3D3D3 -0%,
+    #ffffff 100%
+  );
 }
