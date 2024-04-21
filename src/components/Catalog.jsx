@@ -5,13 +5,13 @@ import CardMoto from "./CardMoto"
 import { informationMoto } from "../constants"
 
 const Catalog = () => (
-  <section className='mt-5'>
+  <section id="catalog" className='mt-5'>
     <div>
       <h1 className={`${styles.heading1} text-center`}>
         Каталог
       </h1>
     </div>
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center mx-4">
       {informationMoto.map((moto) => (
         <CardMoto 
           key={moto.id}

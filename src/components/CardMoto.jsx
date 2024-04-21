@@ -12,44 +12,51 @@ const CardMoto = ({key,img,name,acceleration,engine,speed,day,fullday,night}) =>
             <img src={img} alt="moto" />
         </div>
         <div>
-            <div>
-                <p className="text-center">
+            <div className="mt-4">
+                <p className={`font-montseratt text-[16px] leading-[22px] text-center font-normal`}>
                     <span className="font-semibold">{firstWord}</span> {restOfSentence}    
                 </p>
             </div>
-            <div>
+            <div className="mt-4 mx-3">
                 <div className="flex justify-between">
-                    <p>Разгон 0-100 км/ч</p>
-                    <p>{acceleration}</p>
+                    <p className={`font-montseratt  font-light text-[15px] leading-[20px]`}>Разгон 0-100 км/ч</p>
+                    <p className={`font-montseratt  font-medium text-[15px] leading-[20px]`}>{acceleration} сек</p>
                 </div>
                 <div className="flex justify-between">
-                    <p>Объем двигателя</p>
-                    <p>{engine}</p>
+                    <p className={`font-montseratt  font-light text-[15px] leading-[20px]`}>Объем двигателя</p>
+                    <p className={`font-montseratt  font-medium text-[15px] leading-[20px]`}>{engine} куб.</p>
                 </div>
                 <div className="flex justify-between">
-                    <p>Максимальная скорость</p>
-                    <p>{speed}</p>
+                    <p className={`font-montseratt  font-light text-[15px] leading-[20px]`}>Максимальная скорость</p>
+                    <p className={`font-montseratt  font-medium text-[15px] leading-[20px]`}>{speed} км/ч</p>
                 </div>
             </div>
-            <div className="flex justify-between">
-                <div>
-                    <div>
-                        <p>День</p>
+            <div className="flex justify-between mx-6 mt-4">
+                <div className="flex flex-col items-center">
+                    <div className="bg-main rounded-[50px] px-3">
+                        <p className="font-montseratt font-semibold text-white text-[16px]">День</p>
                     </div>
-                    <p>{day}</p>
+                    <p className="font-montseratt font-medium text-[14px] mt-1">{day} руб</p>
                 </div>
-                <div>
-                    <div>
-                        <p>Сутки</p>
+                <div className="flex flex-col items-center">
+                    <div className="bg-main rounded-[50px] px-3">
+                        <p className="font-montseratt font-semibold text-white text-[16px]">Сутки</p>
                     </div>
-                    <p>{fullday}</p>
+                    <p className="font-montseratt font-medium text-[14px] mt-1">{fullday} руб</p>
                 </div>
-                <div>
-                    <div>
-                        <p>Ночь</p>
+                <div className="flex flex-col items-center">
+                    <div className="bg-main rounded-[50px] px-3">
+                        <p className="font-montseratt font-semibold text-white text-[16px]">Ночь</p>
                     </div>
-                    <p>{night}</p>
+                    <p className="font-montseratt font-medium text-[14px] mt-1">{night} руб</p>
                 </div>
+            </div>
+        </div>
+        <div className="flex justify-center mt-4">
+            <div className="w-[250px] h-[50px]">
+                <button className='bg-main w-full h-full rounded-[50px]'>
+                    <p className='font-montseratt text-[16px] font-semibold text-white text-center'>Забронировать</p>
+                </button>
             </div>
         </div>
     </section>
