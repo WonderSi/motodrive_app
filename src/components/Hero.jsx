@@ -27,7 +27,7 @@ const Hero = () => (
         </div>
       </div>
       <div className="sm:my-48 my-36">
-        <Button />
+        <Button text="Записаться на катания"/>
       </div>
     </div>    
   </section>

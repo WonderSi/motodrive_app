@@ -4,7 +4,7 @@ import Contacts from "./Contacts";
 import Catalog from "./Catalog";
 import Navbar from "./Navbar";
 import QuestionsRequirements from "./QuestionsRequirements";
-import Card from "./Card"
+import CardInfo from "./CardInfo"
 
 export {
     Hero,
@@ -13,5 +13,5 @@ export {
     Catalog,
     Navbar,
     QuestionsRequirements,
-    Card,
+    CardInfo,
 };

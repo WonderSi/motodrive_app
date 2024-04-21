@@ -1,6 +1,6 @@
 import styles from "./style"
 
-import { Navbar, Hero, Catalog, QuestionsRequirements, Contacts, Footer, Card} from './components'
+import { Navbar, Hero, Catalog, QuestionsRequirements, Contacts, Footer, CardInfo} from './components'
 import { background } from "./assets"
 
 const App = () => (
@@ -15,7 +15,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
-      <Card />
+      <CardInfo />
     </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>

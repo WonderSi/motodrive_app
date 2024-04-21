@@ -26,6 +26,10 @@
   font-weight: 400;
 }
 
+.font_first_bold:first-word {
+  color: red;
+}
+
 .gray__gradient {
   background: linear-gradient(
     180deg,

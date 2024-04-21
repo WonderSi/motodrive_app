@@ -1,6 +1,6 @@
 import styles from "../style"
 
-const Card = () => (
+const CardInfo = () => (
     <section className="w-full gray__gradient">
         <div className="flex justify-center">
             <div className={`${styles.boxWidth}`}>
@@ -17,4 +17,4 @@ const Card = () => (
     </section>
 )
 
-export default Card
+export default CardInfo
