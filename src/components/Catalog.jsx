@@ -21,7 +21,7 @@ const Catalog = () => (
           engine={moto.engine}
           speed={moto.speed}
           day={moto.day}
-          fullday={moto.day}
+          fullday={moto.fullday}
           night={moto.night}
         />
       ))}
