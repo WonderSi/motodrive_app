@@ -1,7 +1,6 @@
 import styles from "./style"
 
 import { Navbar, Hero, Catalog, QuestionsRequirements, Contacts, Footer, CardInfo} from './components'
-import { background } from "./assets"
 
 const App = () => (
   <div className=" w-full overflow-hidden">
@@ -11,10 +10,17 @@ const App = () => (
       </div>
     </div>
     
-    <div className={`bg-primary ${styles.flexCenter} flex-col`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
+    <div className="bg-cover bg-center bg-hero-pattern">
+      <div className="bg-no-repeat bg-[center_bottom] bg-hero-pattern-moto">
+        <div className={`${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Hero />
+          </div>
+        </div>
       </div>
+    </div>
+    
+    <div className={`bg-primary ${styles.flexCenter}`}>
       <CardInfo />
     </div>
 

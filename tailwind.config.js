@@ -15,6 +15,10 @@ module.exports = {
       fontFamily: {
         montseratt: ["Montserrat", "sans-serif"],
       },
+      backgroundImage: {
+        'hero-pattern': "url('./src/assets/background.png')",
+        'hero-pattern-moto': "url('./src/assets/background_moto.png')",
+      },
     },
     screens: {
       xs: "480px",

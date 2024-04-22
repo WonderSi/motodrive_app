@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from "../style"
 
-const QuestionsRequirements = () => {
-  return (
-    <div>QuestionsRequirements</div>
-  )
-}
+const QuestionsRequirements = () => (
+  <section>
+
+  </section>
+)
 
 export default QuestionsRequirements

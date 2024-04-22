@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   
   return(
-    <nav className='w-full flex py-2 justify-between items-center'>
+    <nav id="home" className='w-full flex py-2 justify-between items-center'>
       <div className="font-montseratt font-semibold text-[40px] text-white ">
         <a href={`#home`}>
           <div className="">
