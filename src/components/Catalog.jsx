@@ -13,8 +13,8 @@ const Catalog = () => (
     </div>
     <div className="flex flex-wrap justify-center mx-4">
       {informationMoto.map((moto) => (
-        <CardMoto 
-          key={moto.id}
+        <div key={moto.id}>
+          <CardMoto 
           img={moto.img}
           name={moto.name}
           acceleration={moto.acceleration}
@@ -23,7 +23,8 @@ const Catalog = () => (
           day={moto.day}
           fullday={moto.fullday}
           night={moto.night}
-        />
+          />
+        </div>
       ))}
     </div>
     <div className="flex justify-center">

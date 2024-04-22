@@ -1,6 +1,6 @@
 import styles from "../style"
 
-const CardMoto = ({key,img,name,acceleration,engine,speed,day,fullday,night}) => {
+const CardMoto = ({img,name,acceleration,engine,speed,day,fullday,night}) => {
 
     const words = name.split(" ");
     const firstWord = words[0];
