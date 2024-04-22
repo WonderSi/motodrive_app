@@ -7,7 +7,7 @@ const CardQuestions = ({ name, title }) => {
     const [toggle, setToggle] = useState(false)
 
     return(
-        <div className="relative flex justify-center items-center flex-col my-10 w-[505px] bg-[#E4E4E4] rounded-[28px]">
+        <div className="relative flex justify-center items-center flex-col mt-5 w-[505px] bg-[#E4E4E4] rounded-[28px]">
             <div className="bg-[#F4F4F4] rounded-[50px] w-full h-[55px] flex justify-center items-center shadow-[0px_12.5px_10px_-10px_rgba(0,0,0,0.3)] z-[1]">
                 <div className="">
                     <h1 className={`${styles.heading2}`}>{name}</h1>

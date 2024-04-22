@@ -16,6 +16,15 @@ import moto07 from "./moto07.png"
 import moto08 from "./moto08.png"
 import moto09 from "./moto09.png"
 
+import baby from "./lucide_baby.svg"
+import bike from "./lucide_bike.svg"
+import book_open from "./lucide_book-open-text.svg"
+import captions from "./lucide_captions.svg"
+import dollar from "./lucide_circle-dollar-sign.svg"
+import graduation from "./lucide_graduation-cap.svg"
+import helmet from "./lucide_helmet.svg"
+import wallet from "./lucide_wallet.svg"
+
 export {
     arrow_down,
     menu,
@@ -34,4 +43,12 @@ export {
     moto07,
     moto08,
     moto09,
+    baby,
+    bike,
+    book_open,
+    captions,
+    dollar,
+    graduation,
+    helmet,
+    wallet,
 };
