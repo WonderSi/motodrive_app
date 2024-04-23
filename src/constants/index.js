@@ -1,4 +1,4 @@
-import { moto01, moto02, moto03, moto04, moto05, moto06, moto07, moto08, moto09 } from "../assets"
+import { moto01, moto02, moto03, moto04, moto05, moto06, moto07, moto08, moto09, baby, bike, book_open, captions, dollar, graduation, helmet, wallet } from "../assets"
 
 export const navLinks = [
   {
@@ -158,5 +158,58 @@ export const questions = [
     id: "6",
     name: "ДТП",
     title: "В случае ДТП незамедлительно свяжитесь с нами по телефону, мы поможем Вам разобраться с ситуацией.",
+  },
+];
+
+export const requirements = [
+  {
+    name: "Требования",
+    elements: [
+      {
+        id: "1",
+        icon: baby,
+        title: "Возраст 18+",
+      },
+      {
+        id: "2",
+        icon: dollar,
+        title: "Залог 2000",
+      },
+      {
+        id: "3",
+        icon: captions,
+        title: "Паспорт и в/у",
+      },
+      {
+        id: "4",
+        icon: wallet,
+        title: "Оплата проката сразу",
+      },
+    ],
+  },
+  {
+    name: "При аренде",
+    elements: [
+      {
+        id: "1",
+        icon: bike,
+        title: "Обслуженный мото",
+      },
+      {
+        id: "2",
+        icon: book_open,
+        title: "Открытый полис ОСАГО",
+      },
+      {
+        id: "3",
+        icon: helmet,
+        title: "Экипировка",
+      },
+      {
+        id: "4",
+        icon: graduation,
+        title: "Краткий курс по управлению",
+      },
+    ],
   },
 ];
