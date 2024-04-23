@@ -5,6 +5,8 @@ import Catalog from "./Catalog";
 import Navbar from "./Navbar";
 import QuestionsRequirements from "./QuestionsRequirements";
 import CardInfo from "./CardInfo"
+import CardMoto from "./CardMoto";
+import BackHome from "./BackHome";
 
 export {
     Hero,
@@ -14,4 +16,6 @@ export {
     Navbar,
     QuestionsRequirements,
     CardInfo,
+    CardMoto,
+    BackHome,
 };

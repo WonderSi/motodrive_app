@@ -2,7 +2,6 @@ import styles from "../style"
 import { layout } from "../style"
 
 import CardQuestions from "./CardQuestions"
-import CardRequirements from "./CardRequirements"
 import { questions, requirements } from "../constants"
 
 const QuestionsRequirements = () => (

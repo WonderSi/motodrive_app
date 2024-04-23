@@ -56,3 +56,25 @@
     #ffffff 100%
   );
 }
+
+.fixed {
+  width: 55px;
+  height: 55px;
+  background: #FF4B33;
+  position: fixed;
+  z-index: 100;
+  margin: 10px;
+  border-radius: 50px;
+  -webkit-transition: top .2s ease-out 0s;
+  -moz-transition: top .2s ease-out 0s;
+  -o-transition: top .2s ease-out 0s;
+  transition: top .2s ease-out 0s;
+}
+
+.fixed-top{
+  top: 0;
+}
+
+.fixed-bottom{
+  top: -75px;
+}

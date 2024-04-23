@@ -1,9 +1,10 @@
 import styles from "./style"
 
-import { Navbar, Hero, Catalog, QuestionsRequirements, Contacts, Footer, CardInfo} from './components'
+import { Navbar, Hero, Catalog, QuestionsRequirements, Contacts, Footer, CardInfo, BackHome} from './components'
 
 const App = () => (
   <div className=" w-full overflow-hidden">
+    <BackHome />
     <div className={`bg-main ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
