@@ -21,10 +21,11 @@ module.exports = {
       },
     },
     screens: {
+      xx: "320px",
       xs: "480px",
       ss: "620px",
       sm: "768px",
-      md: "1060px",
+      md: "1024px",
       lg: "1200px",
       xl: "1700px",
     },

@@ -12,8 +12,8 @@ const Catalog = () => (
       </h1>
     </div>
     <div className="flex flex-wrap justify-center mx-4">
-      {informationMoto.map((moto) => (
-        <div key={moto.id}>
+      {informationMoto.map((moto, index) => (
+        <div key={moto.id} className={`${index < 3 ? "xx:block" : "hidden"} ${index < 4 ? "md:block" : "hidden"} ${index < 6 ? "lg:block" : "hidden"} ${index >= 6 ? "xl:block" : "hidden"} `}>
           <CardMoto 
           img={moto.img}
           name={moto.name}

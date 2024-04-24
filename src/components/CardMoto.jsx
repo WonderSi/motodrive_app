@@ -7,7 +7,7 @@ const CardMoto = ({img,name,acceleration,engine,speed,day,fullday,night}) => {
     const restOfSentence = words.slice(1).join(" ");
 
     return (
-    <section className='w-[300px] h-[437px] bg-[#f4f4f4] rounded-[25px] m-5 shadow-[0px_12.5px_10px_-10px_rgba(0,0,0,0.3)]'>
+    <section className='w-[300px] h-[437px] bg-[#f4f4f4] rounded-[25px] m-5 mx-[50px] shadow-[0px_12.5px_10px_-10px_rgba(0,0,0,0.3)]'>
         <div className='w-full h-[178px] bg-[#D3D3D3] rounded-t-[25px] flex justify-center items-end'>
             <img src={img} alt="moto" />
         </div>
