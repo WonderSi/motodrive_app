@@ -17,6 +17,10 @@ export const navLinks = [
 
 export const information = [
   {
+    id: "address",
+    title: "Кузнецкий проспект, 85",
+  },
+  {
     id: "numberphone",
     title: "+7 (xxx) xxx-xx-xx",
   },

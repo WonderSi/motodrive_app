@@ -60,7 +60,7 @@ const Navbar = () => {
       
       <div className="sm:flex flex-col justify-center items-center hidden px-4">
         {information.map((inf) => (
-          <p key={inf.id} className={`font-montseratt text-white ${inf.id === "numberphone" ? 'font-semibold' : 'font-normal'}`}>
+          <p key={inf.id} className={`font-montseratt text-white ${inf.id === "numberphone" ? 'font-semibold' : 'font-normal'} ${inf.id === "address" ? 'hidden' : 'block'}`}>
             {inf.title}
           </p>
         ))}
