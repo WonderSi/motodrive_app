@@ -24,6 +24,8 @@ import dollar from "./lucide_circle-dollar-sign.svg"
 import graduation from "./lucide_graduation-cap.svg"
 import helmet from "./lucide_helmet.svg"
 import wallet from "./lucide_wallet.svg"
+import clock from "./lucide_clock-4.svg"
+import phone from "./lucide_phone-call.svg"
 
 export {
     arrow_down,
@@ -51,4 +53,6 @@ export {
     graduation,
     helmet,
     wallet,
+    clock,
+    phone,
 };
