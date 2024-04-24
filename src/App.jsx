@@ -30,8 +30,11 @@ const App = () => (
         <Catalog />
         <QuestionsRequirements />
         <Contacts />
-        <Footer />
       </div>
+    </div>
+
+    <div className={`bg-primary ${styles.flexCenter}`}>
+      <Footer />
     </div>
   </div>
 )
